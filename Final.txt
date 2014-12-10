@@ -1,0 +1,18 @@
+#Names:  Trevor Braden,  Matthew Walker
+#E-mails: tbraden1@umbc.edu, walkmat1@umbc.edu
+
+To run the ouroboros program, enter the fllowing commands in order:
+$ javac Quine.java        //Compiles the .java file
+$ java Quine -> Quine.cpp //Puts the output from the java file into a .cpp file
+$ g++ Quine.cpp -o a.out  //Compiles the .cpp file
+$ ./a.out -> Quine.py     //Puts the output from the .cpp file into a .py file
+$ python Quine.py -> Quine.rb //Puts .py output into a .rb file
+$ ruby Quine.rb -> relay.java  //Puts .rb output into final .java file
+$ diff Quine.java relay.java  //Compares the files, which should be indentical
+
+The Java and C++ portions of code were "inspired" by the examples from this
+link: https://en.wikipedia.org/wiki/Quine_%28computing%29
+
+Citation:
+"Quine (computing)." Wikipedia. Wikimedia Foundation, 12 Oct. 2014. Web. 10 Dec. 2014.
+ 
